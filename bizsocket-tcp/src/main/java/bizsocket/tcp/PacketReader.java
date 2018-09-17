@@ -94,13 +94,13 @@ class PacketReader {
                 }
             }
 
-            try {
-                if (!done) {
-                    Thread.sleep(200);
-                }
-            } catch (InterruptedException e) {
-
-            }
+//            try {
+//                if (!done) {
+//                    Thread.sleep(200);
+//                }
+//            } catch (InterruptedException e) {
+//
+//            }
         }
     }
 }
